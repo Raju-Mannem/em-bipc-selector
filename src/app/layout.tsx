@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Campus Logics Eapcet 2025 College Selector",
-  description: "AP Eapcet 2025 College selector by Campus Logics",
+  title: "Campus Logics TS EAMCET BIPC College Selector",
+  description: "TS EAMCET BIPC College selector by Campus Logics",
 };
 
 export default function RootLayout({
