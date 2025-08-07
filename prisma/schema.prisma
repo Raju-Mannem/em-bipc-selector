@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ts_bpharmacy_2024 {
+  sno            Decimal  @id @db.Decimal
+  inst_code      String?
+  institute_name String?
+  place          String?
+  dist_code      String?
+  co_education   String?
+  college_type   String?
+  year           String?
+  branch_code    String?
+  branch_name    String?
+  oc_boys        Decimal? @db.Decimal
+  oc_girls       Decimal? @db.Decimal
+  bc_a_boys      Decimal? @db.Decimal
+  bc_a_girls     Decimal? @db.Decimal
+  bc_b_boys      Decimal? @db.Decimal
+  bc_b_girls     Decimal? @db.Decimal
+  bc_c_boys      Decimal? @db.Decimal
+  bc_c_girls     Decimal? @db.Decimal
+  bc_d_boys      Decimal? @db.Decimal
+  bc_d_girls     Decimal? @db.Decimal
+  bc_e_boys      Decimal? @db.Decimal
+  bc_e_girls     Decimal? @db.Decimal
+  sc_boys        Decimal? @db.Decimal
+  sc_girls       Decimal? @db.Decimal
+  st_boys        Decimal? @db.Decimal
+  st_girls       Decimal? @db.Decimal
+  ews_gen_ou     Decimal? @db.Decimal
+  ews_girls_ou   Decimal? @db.Decimal
+  tuition_fee    Decimal? @db.Decimal
+  affiliated_to  String?
+}
