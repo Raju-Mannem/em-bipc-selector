@@ -23,7 +23,7 @@ const Navbar = () => {
           className="w-[100px] sm:w-[150px] drop-shadow-xl"
         />
         <strong className="text-blue-600 text-[10px] sm:text-xs">
-          {" | "}Telangana
+          {" | "}Telangana BIPC
         </strong>
       </aside>
 
